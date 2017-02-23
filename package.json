@@ -1,0 +1,26 @@
+{
+  "name": "koademo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "koa": "^2.0.0",
+    "koa-route": "^2.4.2",
+    "koa-router": "^7.1.0",
+    "mongodb": "^2.2.21",
+    "mongoose": "^4.7.7",
+    "redis": "^2.6.5"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.20.0",
+    "babel-register": "^6.18.0",
+    "babel-preset-env": "1.1.4",
+    "babel-preset-stage-0": "6.16.0"
+  }
+}
