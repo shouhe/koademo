@@ -13,6 +13,8 @@
     "koa": "^2.0.0",
     "koa-route": "^2.4.2",
     "koa-router": "^7.1.0",
+    "koa-session": "^5.0.0",
+    "mockserver-client": "^1.0.12",
     "mongodb": "^2.2.21",
     "mongoose": "^4.7.7",
     "redis": "^2.6.5"

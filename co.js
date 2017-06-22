@@ -23,6 +23,7 @@ while(i--) {
   // 相当于把B绑定到A的 next中 执行的是一个从右到左的compose rightReduce
 
   next = [a, b][i].call(null, next);
+  console.log(next);
 }
 // 包裹第一个middleware
 function* start(ne) {
